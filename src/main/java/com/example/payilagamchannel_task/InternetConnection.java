@@ -2,7 +2,7 @@ package com.example.payilagamchannel_task;
 
 import org.springframework.stereotype.Component;
 
-@Component("abc")
+@Component("abc")       // mark this internetconnection class as Spring component with the bean name "abc"
 public class InternetConnection {
     public String ipAddress;
     public int speed;
